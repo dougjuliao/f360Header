@@ -13,11 +13,19 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/main-performance.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <nav class="nav-fixed">
         <div class="d-flex b-bottom top-dark">
+            <div class="menu-user-mobile">
+                <a class="dropdown-btn dropdownUser" href="#">Douglas Julião &nbsp;<i class="fa fa-chevron-down"></i></a>
+                <div class="dropdown-box">
+                    opções
+                </div>
+            </div>
+
             <div class="logo-content">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 291.49 67.34">
                     <g data-name="Layer 2">
@@ -30,9 +38,13 @@
                     </g>
                 </svg>
             </div>
+            
             <div class="flex-item menu-content">
+                <!-- <div class="menu-mobile">
+                    <a id="menuMobileF360" href="#"><i class="fa fa-bars"></i></a>
+                </div> -->
                 <div class="menu-cadastro">
-                    <a id="dropdownCadastro" class="dropdown-btn" href="#">Menu Cadastro &nbsp;<i class="fa fa-chevron-down"></i></a>
+                    <a class="dropdown-btn dropdownCadastro" href="#">Menu Cadastro &nbsp;<i class="fa fa-chevron-down"></i></a>
                     <div class="dropdown-box">
                         <ul>
                             <li>Menu de cadastro</li>
@@ -42,20 +54,23 @@
             </div>
             <div class="flex-item info-content">
                 <ul class="menu-info">
-                    <li class="">
+                    <li class="m-icons">
                         <a href="#"><i class="fa fa-question-circle-o"></i></a>
                     </li>
-                    <li class="">
+                    <li class="m-icons">
                         <a href="#"><i class="fa fa-bell"></i></a>
                     </li>
-                    <li class="">
+                    <li class="m-icons">
                         <a href="#"><i class="fa fa-cog"></i></a>
                     </li>
-                    <li class="">
-                        <a id="dropdownUser" class="dropdown-btn" href="#">Douglas Julião &nbsp;<i class="fa fa-chevron-down"></i></a>
+                    <li class="menu-user">
+                        <a class="dropdown-btn dropdownUser" href="#">Douglas Julião &nbsp;<i class="fa fa-chevron-down"></i></a>
                         <div class="dropdown-box">
                             opções
                         </div>
+                    </li>
+                    <li class="menu-mobile">
+                        <a id="menuMobileF360" href="#"><i class="fa fa-bars"></i></a>
                     </li>
                 </ul>
             </div>
@@ -107,7 +122,7 @@
         </ul>
     </sidebar>
     <section id="plataformaSection" class="plataforma-section">
-        <img src="img/bg-vendas.png" alt="">
+        <img src="img/bg-financas.png" alt="">
     </section>
 
     <script src="js/main.js"></script>

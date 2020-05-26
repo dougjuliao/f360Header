@@ -6,6 +6,11 @@
     border: 1px solid #fff;
     border-radius: 50%;
 }
+#sidenavMenu.sidenav-mobile .menu-sidenav {
+    width: 100%;
+    left:0;
+}
+
 .menu-user-mobile {
     display:none;
 }
@@ -16,7 +21,11 @@
 }
 
 @media (max-width: 770px) {
-    #sidenavMenu, .m-icons, .menu-cadastro, .menu-user, .logo-content,  .menu-loja {
+    #sidenavMenu .menu-sidenav {
+        left: -195px;
+        transition:0.2s;
+    }
+    .m-icons, .menu-cadastro, .menu-user, .logo-content,  .menu-loja {
         display:none !important;
     }
     .plataforma-section {
