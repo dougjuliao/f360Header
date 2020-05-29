@@ -84,7 +84,22 @@ ul {
   z-index: 1;
 }
 .dropdown-box.show {
-  display:block;
+  display: block;
+  border-radius: 5px;
+  margin-top: 0px;
+  min-height: 115px;
+}
+.dropdown-box ul li{
+  transition:0.2s;
+}
+.dropdown-box ul li a{
+  color: #42526e;
+  text-decoration: none;
+  display: block;
+  padding: 9px 12px;
+}
+.dropdown-box ul li:hover {
+  background:#fff;
 }
 /* MENU ABAS - PLATAFORMAS */
 .menu-loja {
