@@ -25,3 +25,11 @@
 .menu-sidenav .menu-sidenav-li:hover, .menu-sidenav .menu-sidenav-li.active {
   background: #ffffff;
 }
+
+/* footer navigation */
+.footer-navigation {
+  background-color: #3c454f;
+}
+.footer-navigation li:hover{
+  background:#ff8b41;
+}
