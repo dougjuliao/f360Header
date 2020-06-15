@@ -82,8 +82,8 @@
         display: block;
         position: absolute;
         top: 3px;
-        background: #ffffff;
-        color: #313740;
+        background-color: #292f35;
+        color: #ffffff;
         padding: 0px 14px;
         cursor: pointer;
         z-index: 2;
