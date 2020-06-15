@@ -42,7 +42,7 @@ ul {
   background: #fff;
   font-size: 0.9em;
   color: #9e9e9e;
-  z-index:2;
+  z-index: 4;
 }
 .logo-content {
   text-align: left;
@@ -322,4 +322,21 @@ li.menu-sidenav-li i {
 }
 .footer-navigation li:hover{
   background:#1a61ca;
+}
+.chat-btn-nav {
+  padding: 5px;
+  background: #4f657d;
+  position: absolute;
+  bottom: 14px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 37px;
+  cursor: pointer;
+}
+.bottom-navigation-mobile {
+  display:none;
 }
