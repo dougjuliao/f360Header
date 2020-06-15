@@ -69,9 +69,10 @@
     .footer-navigation{
         display:block;
         height: auto;
+        min-height: 39px;
     }
     .footer-navigation li {
-        display: block;
+        display: none;
         text-align: left;
         text-indent: 25px;
         padding: 2px 16px;
@@ -87,6 +88,10 @@
         padding: 0px 14px;
         cursor: pointer;
         z-index: 2;
+    }
+
+    .footer-navigation.active li {
+        display: block;
     }
 }
 
