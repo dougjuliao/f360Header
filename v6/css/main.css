@@ -319,6 +319,7 @@ li.menu-sidenav-li i {
   transition:0.3s;
   position: relative;
   margin: 0 -2px;
+  font-size: 0.9em;
 }
 .footer-navigation li:hover{
   background:#1a61ca;
